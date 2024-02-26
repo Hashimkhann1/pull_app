@@ -1,16 +1,11 @@
-# pull_app
+# Pull App
 
-A new Flutter project.
+https://github.com/eslamelezaby98/pull_to_top_app/assets/85620139/9242e498-e191-47b5-8b4e-e0880361775c
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+A Flutter mobile application showcasing various UI components, 
+including a video player that appears when pulling at the top of the screen.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
