@@ -37,7 +37,6 @@ dependencies:
   cupertino_icons: ^1.0.2
   chewie: ^1.7.5
   video_player: ^2.8.2
-  pull_to_refresh: ^2.0.0
 
 dev_dependencies:
   flutter_test:

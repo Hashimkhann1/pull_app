@@ -67,9 +67,10 @@ class _HomeScreenState extends State<HomeScreen> {
                 isPullingTop = false;
               });
             }
-            return false; // return false to allow normal handling of the notification
+            return false;
           },
           child: SingleChildScrollView(
+            padding: EdgeInsets.zero,
             controller: scrollController,
             physics: isPullingTop
                 ? const ClampingScrollPhysics()
@@ -78,7 +79,7 @@ class _HomeScreenState extends State<HomeScreen> {
               children: [
                 isPullingTop
                     ? SizedBox(
-                        height: 200.0,
+                        height: 210,
                         child: Chewie(controller: _chewieController!),
                       )
                     : const SizedBox(),
@@ -105,7 +106,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                       ),
 
-                const SizedBox(height: 10),
+                // const SizedBox(height: 10),
 
                 //* Discount
                 const BuildImage(image: "Discount.png"),
